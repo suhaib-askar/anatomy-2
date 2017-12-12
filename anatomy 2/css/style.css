@@ -1,0 +1,887 @@
+body {
+    background-color: #5055b2;
+}
+
+#nav {
+    color: #070c0d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    /* border-bottom: 1px solid #f0f2f2; */
+    z-index: 10;
+    background: #493382;
+    height: 100px;
+    overflow: hidden;
+}
+
+#content_body {
+    top: 0;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+#leftbar {
+    z-index: 200;
+    top: 100px;
+    padding: 20px;
+    /* border-right: 1px solid #f0f2f2; */
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    /* padding: 0; */
+    /* display: inline-block; */
+    /* float: left; */
+    background: rgba(52, 196,206,1);
+}
+
+#rightbar {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 100px;
+    width: 80%;
+    /* min-height: 625px; */
+    display: inline-block;
+    float: right;
+    position: absolute;
+    background: #5055b2;
+}
+
+.title001 {
+	font-size: 26px;
+    margin: 0px 0 10px;
+    padding: 0px;
+    text-align: left;
+    display: block;
+}
+.ex_panel {
+	font-size: 14px;
+	margin: 0 0 0.75em;
+}
+
+#skin {
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+#bloodvesel{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+#bloodvesel1{
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+#heart{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#heart1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#bones{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#bones1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#brain{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#brain1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#kidneys{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#kidneys1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#L_interstine_long{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#L_interstine_long1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#L_interstine_short{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#L_interstine_short1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#S_interstine{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#S_interstine1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#lungs{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#lungs1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#stomach{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#stomach1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#trachea{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#trachea1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#brastbone{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#brastbone1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#liver{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#liver1{
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.popup1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.popup2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.popup3{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f47d57;
+    color: #fff;
+    text-align: center;
+    border-radius: 113px;
+    padding: 36px 111px;
+    position: absolute;
+    z-index: 1;
+    bottom: -614%;
+    /* left: 82%; */
+    margin-left: 235px;
+    /* position: absolute; */
+}
+.popup1 .popuptext1 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f47d57;
+    color: #fff;
+    text-align: center;
+    border-radius: 113px;
+    padding: 36px 111px;
+    position: absolute;
+    z-index: 1;
+    bottom: -612%;
+    /* left: 208%; */
+    margin-left: 306px;
+    /* position: absolute; */
+}
+.popup2 .popuptext2 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f47d57;
+    color: #fff;
+    text-align: center;
+    border-radius: 113px;
+    padding: 36px 111px;
+    position: absolute;
+    z-index: 1;
+    bottom: -613%;
+    /* left: 208%; */
+    margin-left: 160px;
+    /* position: absolute; */
+}
+.popup3 .popuptext3 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f47d57;
+    color: #fff;
+    text-align: center;
+    border-radius: 113px;
+    padding: 36px 111px;
+    position: absolute;
+    z-index: 1;
+    bottom: -512%;
+    /* left: 208%; */
+    margin-left: 306px;
+    /* position: absolute; */
+}
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.popup1 .popuptext1::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.popup2 .popuptext2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.popup3 .popuptext3::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.popup1 .show1 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.popup2 .show2 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.popup3 .show3 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+.bt_on {
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+    background-color: #f3c154; /* Green */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.bt_off {
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+    background-color: #b28d42; /* Green */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
+.bt_cont {
+    width: 100%;
+    background-color: #f47d57;
+    border-radius: 5px;
+}
+
+.bt_liver {
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 94px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_brastbone{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 74px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_trachea{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 83px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_stomach{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 79px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_lungs{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 89px;
+    border-bottom: 1px solid #f47d57;
+}
+
+
+
+.bt_S_interstine{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 69px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_L_interstine_2{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 88px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_L_interstine{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 69px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_kidneys{
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 82px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_brain {
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 92px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_bones {
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 88px;
+    border-bottom: 1px solid #f47d57;
+}
+
+.bt_bloodvesel {
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 71px;
+    border-bottom: 1px solid #f47d57;
+}
+
+
+.bt_heart {
+    background-color: #f3c154;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 91px;
+    border-bottom: 1px solid #f47d57;
+}
+ 
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1245 {
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: #f47d57;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    /* padding: 0px 159px 0px 70px; */
+    display: inline-block;
+    margin: 10px 1px;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.snip1245:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  background-color: inherit;
+  border-radius: 10px;
+  z-index: -1;
+  box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.75);
+}
+.snip1245:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  border-radius: 5px 0 0 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.snip1245 i {
+  font-size: 1.5em;
+  width: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  border-radius: 5px 0 0 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.snip1245:hover:after,
+.snip1245.hover:after {
+  width: 100%;
+  border-radius: 5px;
+}
+.snip1245:hover i,
+.snip1245.hover i {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#logo {
+    padding: 20px;
+    width: 100px;
+    margin: auto;
+    /* left: 82%; */
+    position: ;
+}
+
+#blank {
+    height: 40px;
+    width: 50px;
+}
+
+
+.myButton {
+    float: right;
+    background-color:#cc4444;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:15px 17px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+    background-color:#46b5c1;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
