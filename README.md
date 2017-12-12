@@ -5,7 +5,7 @@ Live sites
 http://catherinefe.com/aau/wnm499/anatomy/
 http://catherinefe.com/aau/wnm499/anatomy/anatomy%202/anatomy.html
 
-https://universitycatherine.github.io/anatomy/vita_cat/anatoindex.html
+https://universitycatherine.github.io/anatomy/
 
 https://github.com/universitycatherine/anatomy.git
 
