@@ -16,3 +16,12 @@ November 8-13
 November 16
 
 - [ ] Created Icons styles for Vitamins
+
+November 21
+
+Made final icon svgs
+Figured out page layout
+
+December 4
+Upload new version of vitamin guide page
+Edited the css for navigation
