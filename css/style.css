@@ -1,0 +1,414 @@
+#nav {
+    color: #070c0d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    border-bottom: 1px solid #f0f2f2;
+    z-index: 10;
+    background: #46b5c1;
+    height: 40px;
+    overflow: hidden;
+}
+
+#content_body {
+    top: 0;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+#leftbar {
+    top: 40px;
+    padding: 20px;
+    border-right: 1px solid #f0f2f2;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    /* padding: 0; */
+    /* display: inline-block; */
+    /* float: left; */
+    background: white;
+}
+
+#rightbar {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 40px;
+    width: 80%;
+    /* min-height: 625px; */
+    display: inline-block;
+    float: right;
+    position: absolute;
+}
+
+.title001 {
+	font-size: 26px;
+    margin: 0px 0 10px;
+    padding: 0px;
+    text-align: left;
+    display: block;
+}
+.ex_panel {
+	font-size: 14px;
+	margin: 0 0 0.75em;
+}
+
+#skin {
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+#bloodvesel{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+#bloodvesel1{
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+#heart{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#heart1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#bones{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#bones1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#brain{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#brain1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#kidneys{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#kidneys1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#L_interstine_long{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#L_interstine_long1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#L_interstine_short{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#L_interstine_short1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#S_interstine{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#S_interstine1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#lungs{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#lungs1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#stomach{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#stomach1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#trachea{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#trachea1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#brastbone{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#brastbone1 {
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+#liver{
+    margin: auto;
+    /* top: 0; */
+    overflow: scroll;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    float: right;
+    /* height: 100%; */
+    padding: 20px 150px;
+}
+
+
+#liver1{
+    right: 0;
+    /* padding: 20px; */
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    /* min-height: 625px; */
+    float: right;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
