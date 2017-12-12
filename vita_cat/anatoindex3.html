@@ -11,7 +11,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/main.scss" />
-
+		<script src='js/jquery.min.js'></script>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans|Quicksand:400,700" rel="stylesheet">
 	</head>
@@ -31,19 +31,16 @@
 					<nav>
 						<ul>
 							<!--<li><a href="#intro">Vitamins</a></li>-->
-							<li><a href="#a"><img src="images/vita_a.svg" width="30%" height="30%;"/></a></li>
-							<li><a href="#b1"><img src="images/vita_b1.svg" width="30%" height="30%;"/></a></li>
-							<li><a href="#b2"><img src="images/vita_b2.svg" width="30%" height="30%;"/></a></li>
-							<li><a href="#b3"><img src="images/vita_b3.svg" width="30%" height="30%;"></a></li>
-						</ul>
+							<a href="#a"><img src="images/vita_a.svg" width="30%" height="30%;"/></a>
+							<a href="#b1"><img src="images/vita_b1.svg" width="30%" height="30%;"/></a>
+							<a href="#b2"><img src="images/vita_b2.svg" width="30%" height="30%;"/></a>
 
-						<ul>
-							<li><a href="#b5"><img src="images/vita_b5.svg" width="30%" height="30%;"/></a></li>
-							<li><a href="#b6"><img src="images/vita_b6.svg" width="30%" height="30%;"/></a></li>
-							<li><a href="#b7"><img src="images/vita_b7.svg" width="30%" height="30%;"/></a></li>
-							<li><a href="#b9"><img src="images/vita_b9.svg" width="30%" height="30%;"/></a></li>
-						</ul>
+							<a href="#b3"><img src="images/vita_b3.svg" width="30%" height="30%;"></a>
+							<a href="#b5"><img src="images/vita_b5.svg" width="30%" height="30%;"/></a>
+							<a href="#b6"><img src="images/vita_b6.svg" width="30%" height="30%;"/></a>
 
+							<a href="#b7"><img src="images/vita_b7.svg" width="30%" height="30%;"/></a>
+							<a href="#b9"><img src="images/vita_b9.svg" width="30%" height="30%;"/></a>
 							<a href="#b12"><img src="images/vita_b12.svg" width="30%" height="30%;"/>
 						
 							<a href="#c"><img src="images/vita_c.svg" width="30%" height="30%;"/></a></li>
@@ -59,31 +56,30 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+				<div id='content'>
+				</div>
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Let's play!</h1>
-							<p>Navigate on the side to see how each vitamin effects <br> your body</p>
+							<h1>Vitamin Guide</h1>
+							<p>Learn what each vitamin does for your mind and body. Click a vitamin on the right to begin!</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Start!</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
+				
+				<!-- A -->
 					<section id="a" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/vita_a.svg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="images/vita_a.svg" width="80%" height="80%" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Vitamin A</h2>
-									<p>Supports: Eye health,helps form and maintain healthy teeth, skeletal and soft tissue, mucus membranes, and skin</p>
-									<p>Foods: Carrots, Sweet Potato, Liver, Kale
-									<p>Deficiency Symptoms: Dry eyes, dry skin, frequent infections
-									<ul class="actions">
-										<li><a href="#" class="button">Learn more</a></li>
-									</ul>
+										<p>Supports: Eye health,helps form and maintain healthy teeth, skeletal and soft tissue, mucus membranes, and skin</p>
+										<p>Foods: Carrots, Sweet Potato, Liver, Kale</p>
+										<p>Deficiency Symptoms: Dry eyes, dry skin, frequent infections</p>
 								</div>
 							</div>
 						</section>
@@ -321,6 +317,10 @@
 				</div>
 			</footer>
 
+
+
+		
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -329,6 +329,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script scr="assets/js/loader.js"></script>
 
 	</body>
 </html>
